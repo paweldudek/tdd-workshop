@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>BA4F5374-CA35-4BFE-9C2B-6139A12A27EE</string>
+	<string>84988B4E-92C4-4B7E-A30C-DD590B9030ED</string>
 	<key>IDESourceControlProjectName</key>
 	<string>HarryPotter</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>7154C70F-9392-46F2-A80A-B503FBEE00EE</string>
 			<key>IDESourceControlWCCName</key>
-			<string>tdd-workshop</string>
+			<string>HarryPotter</string>
 		</dict>
 	</array>
 </dict>

@@ -1,0 +1,11 @@
+platform :ios, '7.0'
+
+xcodeproj 'HarryPotter'
+
+target :specs do
+  link_with 'HarryPotterSpecs'
+
+  pod 'Cedar'
+  pod 'Expecta'
+  pod 'OCMockito'
+end
