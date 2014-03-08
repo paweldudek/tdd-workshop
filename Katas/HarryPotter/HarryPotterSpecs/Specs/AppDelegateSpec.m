@@ -16,8 +16,15 @@ describe(@"SalesforceShowcaseAuthenticationViewController", ^{
         appDelegate = nil;
     });
 
-    it(@"should have a shop view controller as root view controller", ^{
-        expect(appDelegate.window.rootViewController).to.beKindOf([ShopViewController class]);
+    describe(@"application did finish launching", ^{
+        beforeEach(^{
+            [appDelegate application:nil didFinishLaunchingWithOptions:nil];
+        });
+
+        it(@"should have a shop view controller as root view controller", ^{
+            expect(appDelegate.window.rootViewController).to.beKindOf([ShopViewController class]);
+        });
+
     });
 });
 
