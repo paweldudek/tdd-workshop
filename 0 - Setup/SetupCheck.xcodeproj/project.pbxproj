@@ -20,9 +20,11 @@
 		43E4405318D0638E000A5ED9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43E4405118D0638E000A5ED9 /* InfoPlist.strings */; };
 		43E4405518D0638E000A5ED9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E4405418D0638E000A5ED9 /* main.m */; };
 		43E4405B18D0638E000A5ED9 /* ExampleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E4405A18D0638E000A5ED9 /* ExampleSpec.m */; };
+		4DE99D0D847D401DA14BB8DA /* libPods-specs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D5440236844EF0BB8D0499 /* libPods-specs.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43D5440236844EF0BB8D0499 /* libPods-specs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-specs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E4401418D06378000A5ED9 /* SetupCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SetupCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E4401718D06378000A5ED9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		43E4401918D06378000A5ED9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -42,6 +44,7 @@
 		43E4405618D0638E000A5ED9 /* SetupCheckSpecs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SetupCheckSpecs-Prefix.pch"; sourceTree = "<group>"; };
 		43E4405A18D0638E000A5ED9 /* ExampleSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleSpec.m; sourceTree = "<group>"; };
 		43E4405F18D063DB000A5ED9 /* Specs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Specs.h; sourceTree = "<group>"; };
+		F0BBC28F01744132BABD0E1B /* Pods-specs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-specs.xcconfig"; path = "Pods/Pods-specs.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,7 @@
 				43E4404D18D0638E000A5ED9 /* CoreGraphics.framework in Frameworks */,
 				43E4404B18D0638E000A5ED9 /* UIKit.framework in Frameworks */,
 				43E4404C18D0638E000A5ED9 /* Foundation.framework in Frameworks */,
+				4DE99D0D847D401DA14BB8DA /* libPods-specs.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +79,7 @@
 				43E4404E18D0638E000A5ED9 /* SetupCheckSpecs */,
 				43E4401618D06378000A5ED9 /* Frameworks */,
 				43E4401518D06378000A5ED9 /* Products */,
+				F0BBC28F01744132BABD0E1B /* Pods-specs.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +99,7 @@
 				43E4401918D06378000A5ED9 /* CoreGraphics.framework */,
 				43E4401B18D06378000A5ED9 /* UIKit.framework */,
 				43E4403018D06379000A5ED9 /* XCTest.framework */,
+				43D5440236844EF0BB8D0499 /* libPods-specs.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -165,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43E4405C18D0638E000A5ED9 /* Build configuration list for PBXNativeTarget "SetupCheckSpecs" */;
 			buildPhases = (
+				58D240AC18E043789DA06AE6 /* Check Pods Manifest.lock */,
 				43E4404618D0638E000A5ED9 /* Sources */,
 				43E4404718D0638E000A5ED9 /* Frameworks */,
 				43E4404818D0638E000A5ED9 /* Resources */,
+				1DA73ABE6B514B7881213CEF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,6 +232,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DA73ABE6B514B7881213CEF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-specs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58D240AC18E043789DA06AE6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		43E4401018D06378000A5ED9 /* Sources */ = {
@@ -366,13 +407,10 @@
 		};
 		43E4405D18D0638E000A5ED9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0BBC28F01744132BABD0E1B /* Pods-specs.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/eldudi/Workspace/tdd-workshop/0\\ -\\ Setup/SetupCheck/SetupCheckSpecs/Frameworks",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SetupCheckSpecs/SetupCheckSpecs-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -381,9 +419,8 @@
 				);
 				INFOPLIST_FILE = "SetupCheckSpecs/SetupCheckSpecs-Info.plist";
 				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
 					"-lstdc++",
+					"${inherited}",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -392,21 +429,20 @@
 		};
 		43E4405E18D0638E000A5ED9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0BBC28F01744132BABD0E1B /* Pods-specs.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/eldudi/Workspace/tdd-workshop/0\\ -\\ Setup/SetupCheck/SetupCheckSpecs/Frameworks",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SetupCheckSpecs/SetupCheckSpecs-Prefix.pch";
 				INFOPLIST_FILE = "SetupCheckSpecs/SetupCheckSpecs-Info.plist";
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"${inherited}",
+				);
 				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
 					"-lstdc++",
+					"${inherited}",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -432,6 +468,7 @@
 				43E4404218D06379000A5ED9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43E4405C18D0638E000A5ED9 /* Build configuration list for PBXNativeTarget "SetupCheckSpecs" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +477,7 @@
 				43E4405E18D0638E000A5ED9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
