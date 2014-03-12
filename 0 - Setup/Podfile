@@ -1,0 +1,11 @@
+platform :ios, '7.0'
+
+xcodeproj 'SetupCheck'
+
+target :specs do
+  link_with 'SetupCheckSpecs'
+
+  pod 'Cedar'
+  pod 'Expecta'
+  pod 'OCMockito'
+end

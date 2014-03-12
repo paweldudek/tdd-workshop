@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="HarryPotter" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="HarryPotter" PROJECT_NAME="HarryPotter" TARGET_NAME="HarryPotter" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="HarryPotter" RUN_TARGET_NAME="HarryPotter" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+    <envs />
+    <RunnerSettings RunnerId="AppRunner" />
+    <ConfigurationWrapper RunnerId="AppRunner" />
+    <method />
+  </configuration>
+</component>
