@@ -1,0 +1,3 @@
+target :Magic8BallSpecs do
+  pod 'Expecta'
+end

@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51043085D0B672776B60A5BD /* Magic8BallViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5104355CF182D6FA9095D545 /* Magic8BallViewControllerSpec.m */; };
+		510433984963D5F2E05EC815 /* NotSoRandomAnswerGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 51043B2B0481F93F00240EEC /* NotSoRandomAnswerGenerator.m */; };
+		5104343F70ACE216AED5268B /* Magic8BallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 510434974BDC26993DC81F50 /* Magic8BallViewController.m */; };
+		510436235B1892AEB481D966 /* Magic8BallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5104346BDB533884F6EA70F8 /* Magic8BallView.m */; };
+		510436AAFF9B46201494CBA8 /* Magic8BallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 510434974BDC26993DC81F50 /* Magic8BallViewController.m */; };
+		510437778BE7A0D5493B6E2B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51043C4B6A539E921DEB62B1 /* Localizable.strings */; };
+		510438ADD92279944092EF8E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51043C4B6A539E921DEB62B1 /* Localizable.strings */; };
+		5104396AB2131ED03D6D75F6 /* Magic8BallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5104346BDB533884F6EA70F8 /* Magic8BallView.m */; };
+		5104399907490802E890CA0D /* AnswerGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5104383F64888562DCA39950 /* AnswerGenerator.m */; };
+		51043E733818CA580AB9165D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9468051D18D223E500A277B2 /* AppDelegate.m */; };
+		51043EC131B9430A0021BFDD /* AnswerGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5104383F64888562DCA39950 /* AnswerGenerator.m */; };
+		9468050E18D223E500A277B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9468050D18D223E500A277B2 /* Foundation.framework */; };
+		9468051018D223E500A277B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9468050F18D223E500A277B2 /* CoreGraphics.framework */; };
+		9468051218D223E500A277B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9468051118D223E500A277B2 /* UIKit.framework */; };
+		9468051818D223E500A277B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9468051618D223E500A277B2 /* InfoPlist.strings */; };
+		9468051A18D223E500A277B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9468051918D223E500A277B2 /* main.m */; };
+		9468051E18D223E500A277B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9468051D18D223E500A277B2 /* AppDelegate.m */; };
+		9468052018D223E500A277B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9468051F18D223E500A277B2 /* Images.xcassets */; };
+		9468054118D22A1700A277B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9468051118D223E500A277B2 /* UIKit.framework */; };
+		9468054218D22A1700A277B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9468050D18D223E500A277B2 /* Foundation.framework */; };
+		9468054318D22A1700A277B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9468050F18D223E500A277B2 /* CoreGraphics.framework */; };
+		9468054918D22A1700A277B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9468054718D22A1700A277B2 /* InfoPlist.strings */; };
+		9468054B18D22A1700A277B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9468054A18D22A1700A277B2 /* main.m */; };
+		9468054F18D22A1800A277B2 /* Cedar-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9468054E18D22A1800A277B2 /* Cedar-iOS.framework */; };
+		9468055618D22A4700A277B2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9468055518D22A4700A277B2 /* Default-568h@2x.png */; };
+		DF94100A48614557AA64382F /* libPods-Magic8BallSpecs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 157846E46E224200A17CA780 /* libPods-Magic8BallSpecs.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		157846E46E224200A17CA780 /* libPods-Magic8BallSpecs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Magic8BallSpecs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5104346BDB533884F6EA70F8 /* Magic8BallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Magic8BallView.m; sourceTree = "<group>"; };
+		510434974BDC26993DC81F50 /* Magic8BallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Magic8BallViewController.m; sourceTree = "<group>"; };
+		5104355CF182D6FA9095D545 /* Magic8BallViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Magic8BallViewControllerSpec.m; sourceTree = "<group>"; };
+		5104383F64888562DCA39950 /* AnswerGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerGenerator.m; sourceTree = "<group>"; };
+		51043AEC01AF8EC2846CAC12 /* Magic8BallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Magic8BallView.h; sourceTree = "<group>"; };
+		51043B0845E8420A0E95BA6D /* NotSoRandomAnswerGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotSoRandomAnswerGenerator.h; sourceTree = "<group>"; };
+		51043B2B0481F93F00240EEC /* NotSoRandomAnswerGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotSoRandomAnswerGenerator.m; sourceTree = "<group>"; };
+		51043C4B6A539E921DEB62B1 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = UI/Localizable.strings; sourceTree = "<group>"; };
+		51043DF77B396A60702833A2 /* AnswerGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerGenerator.h; sourceTree = "<group>"; };
+		51043F6F8F29687C3A1D90AE /* Magic8BallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Magic8BallViewController.h; sourceTree = "<group>"; };
+		9468050A18D223E500A277B2 /* Magic8Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magic8Ball.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9468050D18D223E500A277B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9468050F18D223E500A277B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9468051118D223E500A277B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9468051518D223E500A277B2 /* Magic8Ball-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Magic8Ball-Info.plist"; sourceTree = "<group>"; };
+		9468051718D223E500A277B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9468051918D223E500A277B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9468051B18D223E500A277B2 /* Magic8Ball-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Magic8Ball-Prefix.pch"; sourceTree = "<group>"; };
+		9468051C18D223E500A277B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9468051D18D223E500A277B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9468051F18D223E500A277B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9468052618D223E500A277B2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9468054018D22A1700A277B2 /* Magic8BallSpecs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magic8BallSpecs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9468054618D22A1700A277B2 /* Magic8BallSpecs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Magic8BallSpecs-Info.plist"; sourceTree = "<group>"; };
+		9468054818D22A1700A277B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9468054A18D22A1700A277B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9468054C18D22A1700A277B2 /* Magic8BallSpecs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Magic8BallSpecs-Prefix.pch"; sourceTree = "<group>"; };
+		9468054D18D22A1700A277B2 /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
+		9468054E18D22A1800A277B2 /* Cedar-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cedar-iOS.framework"; path = "Frameworks/Cedar-iOS.framework"; sourceTree = "<group>"; };
+		9468055518D22A4700A277B2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		CDDFC49A6DEA4BFE818F5A9F /* Pods-Magic8BallSpecs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magic8BallSpecs.xcconfig"; path = "Pods/Pods-Magic8BallSpecs.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9468050718D223E500A277B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9468051018D223E500A277B2 /* CoreGraphics.framework in Frameworks */,
+				9468051218D223E500A277B2 /* UIKit.framework in Frameworks */,
+				9468050E18D223E500A277B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9468053D18D22A1700A277B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9468054318D22A1700A277B2 /* CoreGraphics.framework in Frameworks */,
+				9468054118D22A1700A277B2 /* UIKit.framework in Frameworks */,
+				9468054F18D22A1800A277B2 /* Cedar-iOS.framework in Frameworks */,
+				9468054218D22A1700A277B2 /* Foundation.framework in Frameworks */,
+				DF94100A48614557AA64382F /* libPods-Magic8BallSpecs.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51043C7C703D2533093FC154 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5104383F64888562DCA39950 /* AnswerGenerator.m */,
+				51043DF77B396A60702833A2 /* AnswerGenerator.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51043E9A4AF9E2456B7B1F6D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				510434974BDC26993DC81F50 /* Magic8BallViewController.m */,
+				51043F6F8F29687C3A1D90AE /* Magic8BallViewController.h */,
+				5104355CF182D6FA9095D545 /* Magic8BallViewControllerSpec.m */,
+				5104346BDB533884F6EA70F8 /* Magic8BallView.m */,
+				51043AEC01AF8EC2846CAC12 /* Magic8BallView.h */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9468050118D223E500A277B2 = {
+			isa = PBXGroup;
+			children = (
+				9468051318D223E500A277B2 /* Magic8Ball */,
+				9468054418D22A1700A277B2 /* Magic8BallSpecs */,
+				9468050C18D223E500A277B2 /* Frameworks */,
+				9468050B18D223E500A277B2 /* Products */,
+				CDDFC49A6DEA4BFE818F5A9F /* Pods-Magic8BallSpecs.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		9468050B18D223E500A277B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9468050A18D223E500A277B2 /* Magic8Ball.app */,
+				9468054018D22A1700A277B2 /* Magic8BallSpecs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9468050C18D223E500A277B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9468050D18D223E500A277B2 /* Foundation.framework */,
+				9468050F18D223E500A277B2 /* CoreGraphics.framework */,
+				9468051118D223E500A277B2 /* UIKit.framework */,
+				9468052618D223E500A277B2 /* XCTest.framework */,
+				157846E46E224200A17CA780 /* libPods-Magic8BallSpecs.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9468051318D223E500A277B2 /* Magic8Ball */ = {
+			isa = PBXGroup;
+			children = (
+				9468051C18D223E500A277B2 /* AppDelegate.h */,
+				9468051D18D223E500A277B2 /* AppDelegate.m */,
+				9468051F18D223E500A277B2 /* Images.xcassets */,
+				9468051418D223E500A277B2 /* Supporting Files */,
+				51043E9A4AF9E2456B7B1F6D /* UI */,
+				51043C7C703D2533093FC154 /* Model */,
+			);
+			path = Magic8Ball;
+			sourceTree = "<group>";
+		};
+		9468051418D223E500A277B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9468051518D223E500A277B2 /* Magic8Ball-Info.plist */,
+				9468051618D223E500A277B2 /* InfoPlist.strings */,
+				9468051918D223E500A277B2 /* main.m */,
+				9468051B18D223E500A277B2 /* Magic8Ball-Prefix.pch */,
+				51043C4B6A539E921DEB62B1 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9468054418D22A1700A277B2 /* Magic8BallSpecs */ = {
+			isa = PBXGroup;
+			children = (
+				9468054D18D22A1700A277B2 /* Rakefile */,
+				9468054E18D22A1800A277B2 /* Cedar-iOS.framework */,
+				9468054518D22A1700A277B2 /* Supporting Files */,
+				51043B2B0481F93F00240EEC /* NotSoRandomAnswerGenerator.m */,
+				51043B0845E8420A0E95BA6D /* NotSoRandomAnswerGenerator.h */,
+			);
+			path = Magic8BallSpecs;
+			sourceTree = "<group>";
+		};
+		9468054518D22A1700A277B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9468055518D22A4700A277B2 /* Default-568h@2x.png */,
+				9468054618D22A1700A277B2 /* Magic8BallSpecs-Info.plist */,
+				9468054718D22A1700A277B2 /* InfoPlist.strings */,
+				9468054A18D22A1700A277B2 /* main.m */,
+				9468054C18D22A1700A277B2 /* Magic8BallSpecs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9468050918D223E500A277B2 /* Magic8Ball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9468053618D223E500A277B2 /* Build configuration list for PBXNativeTarget "Magic8Ball" */;
+			buildPhases = (
+				9468050618D223E500A277B2 /* Sources */,
+				9468050718D223E500A277B2 /* Frameworks */,
+				9468050818D223E500A277B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Magic8Ball;
+			productName = Magic8Ball;
+			productReference = 9468050A18D223E500A277B2 /* Magic8Ball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9468053F18D22A1700A277B2 /* Magic8BallSpecs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9468055218D22A1800A277B2 /* Build configuration list for PBXNativeTarget "Magic8BallSpecs" */;
+			buildPhases = (
+				4958573A61A942C99A26A2B5 /* Check Pods Manifest.lock */,
+				9468053C18D22A1700A277B2 /* Sources */,
+				9468053D18D22A1700A277B2 /* Frameworks */,
+				9468053E18D22A1700A277B2 /* Resources */,
+				E6EE327B647547AE9901C21D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Magic8BallSpecs;
+			productName = Magic8BallSpecs;
+			productReference = 9468054018D22A1700A277B2 /* Magic8BallSpecs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9468050218D223E500A277B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Aleksander Zubala";
+			};
+			buildConfigurationList = 9468050518D223E500A277B2 /* Build configuration list for PBXProject "Magic8Ball" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9468050118D223E500A277B2;
+			productRefGroup = 9468050B18D223E500A277B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9468050918D223E500A277B2 /* Magic8Ball */,
+				9468053F18D22A1700A277B2 /* Magic8BallSpecs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9468050818D223E500A277B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9468051818D223E500A277B2 /* InfoPlist.strings in Resources */,
+				9468052018D223E500A277B2 /* Images.xcassets in Resources */,
+				510438ADD92279944092EF8E /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9468053E18D22A1700A277B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9468054918D22A1700A277B2 /* InfoPlist.strings in Resources */,
+				9468055618D22A4700A277B2 /* Default-568h@2x.png in Resources */,
+				510437778BE7A0D5493B6E2B /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4958573A61A942C99A26A2B5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E6EE327B647547AE9901C21D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Magic8BallSpecs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9468050618D223E500A277B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9468051E18D223E500A277B2 /* AppDelegate.m in Sources */,
+				9468051A18D223E500A277B2 /* main.m in Sources */,
+				5104343F70ACE216AED5268B /* Magic8BallViewController.m in Sources */,
+				510436235B1892AEB481D966 /* Magic8BallView.m in Sources */,
+				51043EC131B9430A0021BFDD /* AnswerGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9468053C18D22A1700A277B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9468054B18D22A1700A277B2 /* main.m in Sources */,
+				510436AAFF9B46201494CBA8 /* Magic8BallViewController.m in Sources */,
+				51043085D0B672776B60A5BD /* Magic8BallViewControllerSpec.m in Sources */,
+				5104396AB2131ED03D6D75F6 /* Magic8BallView.m in Sources */,
+				51043E733818CA580AB9165D /* AppDelegate.m in Sources */,
+				5104399907490802E890CA0D /* AnswerGenerator.m in Sources */,
+				510433984963D5F2E05EC815 /* NotSoRandomAnswerGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9468051618D223E500A277B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9468051718D223E500A277B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9468054718D22A1700A277B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9468054818D22A1700A277B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9468053418D223E500A277B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9468053518D223E500A277B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9468053718D223E500A277B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Magic8Ball/Magic8Ball-Prefix.pch";
+				INFOPLIST_FILE = "Magic8Ball/Magic8Ball-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9468053818D223E500A277B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Magic8Ball/Magic8Ball-Prefix.pch";
+				INFOPLIST_FILE = "Magic8Ball/Magic8Ball-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9468055318D22A1800A277B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDDFC49A6DEA4BFE818F5A9F /* Pods-Magic8BallSpecs.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Magic8BallSpecs/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Magic8BallSpecs/Magic8BallSpecs-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Magic8BallSpecs/Magic8BallSpecs-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9468055418D22A1800A277B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDDFC49A6DEA4BFE818F5A9F /* Pods-Magic8BallSpecs.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Magic8BallSpecs/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Magic8BallSpecs/Magic8BallSpecs-Prefix.pch";
+				INFOPLIST_FILE = "Magic8BallSpecs/Magic8BallSpecs-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9468050518D223E500A277B2 /* Build configuration list for PBXProject "Magic8Ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9468053418D223E500A277B2 /* Debug */,
+				9468053518D223E500A277B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9468053618D223E500A277B2 /* Build configuration list for PBXNativeTarget "Magic8Ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9468053718D223E500A277B2 /* Debug */,
+				9468053818D223E500A277B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9468055218D22A1800A277B2 /* Build configuration list for PBXNativeTarget "Magic8BallSpecs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9468055318D22A1800A277B2 /* Debug */,
+				9468055418D22A1800A277B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9468050218D223E500A277B2 /* Project object */;
+}
