@@ -396,6 +396,7 @@
 				GCC_PREFIX_HEADER = "FirstTest/FirstTest-Prefix.pch";
 				INFOPLIST_FILE = "FirstTest/FirstTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -409,6 +410,7 @@
 				GCC_PREFIX_HEADER = "FirstTest/FirstTest-Prefix.pch";
 				INFOPLIST_FILE = "FirstTest/FirstTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
