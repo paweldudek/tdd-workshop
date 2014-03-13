@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>331E90F4-3643-449D-9D0F-979403AE988E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FirstTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7154C70F-9392-46F2-A80A-B503FBEE00EE</key>
+		<string>https://github.com/paweldudek/tdd-workshop.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>1 - Introduction/FirstTest/FirstTest.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7154C70F-9392-46F2-A80A-B503FBEE00EE</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/paweldudek/tdd-workshop.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7154C70F-9392-46F2-A80A-B503FBEE00EE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7154C70F-9392-46F2-A80A-B503FBEE00EE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HarryPotter</string>
+		</dict>
+	</array>
+</dict>
+</plist>

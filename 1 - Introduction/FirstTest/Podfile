@@ -1,0 +1,11 @@
+platform :ios, '7.0'
+
+xcodeproj 'FirstTest'
+
+target :specs do
+  link_with 'FirstTestSpecs'
+
+  pod 'Cedar'
+  pod 'Expecta'
+  pod 'OCMockito'
+end
