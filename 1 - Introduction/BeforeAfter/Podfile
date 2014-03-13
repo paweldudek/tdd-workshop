@@ -1,0 +1,11 @@
+platform :ios, '7.0'
+
+xcodeproj 'BeforeAfter'
+
+target :specs do
+  link_with 'BeforeAfterSpecs'
+
+  pod 'Cedar'
+  pod 'Expecta'
+  pod 'OCMockito'
+end

@@ -1,0 +1,19 @@
+PODS:
+  - Cedar (0.9.5)
+  - Expecta (0.3.0)
+  - OCHamcrest (3.0.1)
+  - OCMockito (1.1.0):
+    - OCHamcrest (~> 3.0)
+
+DEPENDENCIES:
+  - Cedar
+  - Expecta
+  - OCMockito
+
+SPEC CHECKSUMS:
+  Cedar: 16cbb75084031aa41304cdeb0d0c8319c1af1cae
+  Expecta: 322f1dc42610106a5ba9871b4924cf1635d80833
+  OCHamcrest: 782c52ae8c673e5d6060a65005cfd26d20d519ba
+  OCMockito: 317fa0cf75c9b0d73d2be335789c556537be7fd2
+
+COCOAPODS: 0.29.0
