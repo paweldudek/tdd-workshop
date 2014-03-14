@@ -20,10 +20,10 @@
 		43E440A818D0A707000A5ED9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43E440A618D0A707000A5ED9 /* InfoPlist.strings */; };
 		43E440AA18D0A707000A5ED9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E440A918D0A707000A5ED9 /* main.m */; };
 		4AC17984155D4D648C917BF7 /* libPods-specs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F03FB42655B04C48BF57F00E /* libPods-specs.a */; };
-		B27A94341DCEE4B7F1349EF0 /* NSString+FirstWordSentenceCapitalizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A9D967EB92A1A0B75654A /* NSString+FirstWordSentenceCapitalizer.m */; };
+		B27A94341DCEE4B7F1349EF0 /* NSString+FirstTwoWordsSentenceCapitalizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A9D967EB92A1A0B75654A /* NSString+FirstTwoWordsSentenceCapitalizer.m */; };
 		B27A943EDCF7EDDD762D9F54 /* NSString+FirstWordSentenceCapitalizerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A9C0AF32466FCA111DDBE /* NSString+FirstWordSentenceCapitalizerSpec.m */; };
 		B27A97D4A9BBEBDCB2A5DAD7 /* NSString+FirstWordSentenceCapitalizerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A9C0AF32466FCA111DDBE /* NSString+FirstWordSentenceCapitalizerSpec.m */; };
-		B27A9B0665EF9BA789D91EC6 /* NSString+FirstWordSentenceCapitalizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A9D967EB92A1A0B75654A /* NSString+FirstWordSentenceCapitalizer.m */; };
+		B27A9B0665EF9BA789D91EC6 /* NSString+FirstTwoWordsSentenceCapitalizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A9D967EB92A1A0B75654A /* NSString+FirstTwoWordsSentenceCapitalizer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,9 +44,9 @@
 		43E440A718D0A707000A5ED9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		43E440A918D0A707000A5ED9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		43E440AB18D0A707000A5ED9 /* FirstTestSpecs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FirstTestSpecs-Prefix.pch"; sourceTree = "<group>"; };
-		B27A90813D44E0E7D67225F8 /* NSString+FirstWordSentenceCapitalizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FirstWordSentenceCapitalizer.h"; sourceTree = "<group>"; };
+		B27A90813D44E0E7D67225F8 /* NSString+FirstTwoWordsSentenceCapitalizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FirstTwoWordsSentenceCapitalizer.h"; sourceTree = "<group>"; };
 		B27A9C0AF32466FCA111DDBE /* NSString+FirstWordSentenceCapitalizerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FirstWordSentenceCapitalizerSpec.m"; sourceTree = "<group>"; };
-		B27A9D967EB92A1A0B75654A /* NSString+FirstWordSentenceCapitalizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FirstWordSentenceCapitalizer.m"; sourceTree = "<group>"; };
+		B27A9D967EB92A1A0B75654A /* NSString+FirstTwoWordsSentenceCapitalizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FirstTwoWordsSentenceCapitalizer.m"; sourceTree = "<group>"; };
 		DFCAFBC3A30947B0BAC14569 /* Pods-specs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-specs.xcconfig"; path = "Pods/Pods-specs.xcconfig"; sourceTree = "<group>"; };
 		F03FB42655B04C48BF57F00E /* libPods-specs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-specs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -115,8 +115,8 @@
 				43E4407C18D0A6CB000A5ED9 /* AppDelegate.m */,
 				43E4407E18D0A6CB000A5ED9 /* Images.xcassets */,
 				43E4407318D0A6CB000A5ED9 /* Supporting Files */,
-				B27A9D967EB92A1A0B75654A /* NSString+FirstWordSentenceCapitalizer.m */,
-				B27A90813D44E0E7D67225F8 /* NSString+FirstWordSentenceCapitalizer.h */,
+				B27A9D967EB92A1A0B75654A /* NSString+FirstTwoWordsSentenceCapitalizer.m */,
+				B27A90813D44E0E7D67225F8 /* NSString+FirstTwoWordsSentenceCapitalizer.h */,
 			);
 			path = FirstTest;
 			sourceTree = "<group>";
@@ -278,7 +278,7 @@
 			files = (
 				43E4407D18D0A6CB000A5ED9 /* AppDelegate.m in Sources */,
 				43E4407918D0A6CB000A5ED9 /* main.m in Sources */,
-				B27A9B0665EF9BA789D91EC6 /* NSString+FirstWordSentenceCapitalizer.m in Sources */,
+				B27A9B0665EF9BA789D91EC6 /* NSString+FirstTwoWordsSentenceCapitalizer.m in Sources */,
 				B27A943EDCF7EDDD762D9F54 /* NSString+FirstWordSentenceCapitalizerSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43E440AA18D0A707000A5ED9 /* main.m in Sources */,
-				B27A94341DCEE4B7F1349EF0 /* NSString+FirstWordSentenceCapitalizer.m in Sources */,
+				B27A94341DCEE4B7F1349EF0 /* NSString+FirstTwoWordsSentenceCapitalizer.m in Sources */,
 				B27A97D4A9BBEBDCB2A5DAD7 /* NSString+FirstWordSentenceCapitalizerSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
