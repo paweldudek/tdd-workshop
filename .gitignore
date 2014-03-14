@@ -1,7 +1,3 @@
 Katas/HarryPotter/.idea
-0 - Setup/SetupCheck.xcodeproj/xcuserdata/eldudi.xcuserdatad
-1 - Introduction/FirstTest/.idea
-1 - Introduction/BeforeAfter/.idea
-1 - Introduction/BeforeAfter/BeforeAfter.xcodeproj/xcuserdata
-5 - Katas/FizzBuzz/FizzBuzz.xcodeproj/xcuserdata
-5 - Katas/StringCalculator/StringCalculator.xcodeproj/xcuserdata
+.idea
+xcuserdata

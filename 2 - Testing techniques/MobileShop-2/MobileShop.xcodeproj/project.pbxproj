@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EDB80BEB02B5C520A864F2A /* ShoppingBasketEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB8AE0359CB613DE6726DB /* ShoppingBasketEditor.m */; };
+		1EDB81049D1EBB5745FF54F0 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB8613178A7DE5DD9F194B /* Product.m */; };
+		1EDB81ACEF5BC0EC956E0B68 /* BalanceCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB893226D8CBD9E332EF04 /* BalanceCalculator.m */; };
+		1EDB827A651E016B4BE1B132 /* ShoppingBasketEditorSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB87261466732BC7A182C1 /* ShoppingBasketEditorSpecs.m */; };
+		1EDB829A15A27BB26B6551F8 /* ShoppingBasket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB8609C8AEC96C1DAC2F43 /* ShoppingBasket.m */; };
+		1EDB84A1550EDDBF56252E71 /* ApiGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB8733B857227051E47732 /* ApiGateway.m */; };
+		1EDB86E2503E558D1B724ABF /* ShoppingOrdererSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB88460D6DEF197CE7879B /* ShoppingOrdererSpecs.m */; };
+		1EDB87F9F663FE93F83D63C2 /* BalanceCalculatorSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB88587D4C7C640A1ED341 /* BalanceCalculatorSpecs.m */; };
+		1EDB8C15836522BF4C377932 /* BalanceCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB893226D8CBD9E332EF04 /* BalanceCalculator.m */; };
+		1EDB8D87D2465490AE7F6BFD /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB8613178A7DE5DD9F194B /* Product.m */; };
+		1EDB8DCB00C0CB00D5C7592F /* ShoppingBasketEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB8AE0359CB613DE6726DB /* ShoppingBasketEditor.m */; };
+		1EDB8DEA1178BCD2FE36CC87 /* ApiGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB8733B857227051E47732 /* ApiGateway.m */; };
+		1EDB8E3EB51F4BFF35EA6AD2 /* ShoppingBasket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB8609C8AEC96C1DAC2F43 /* ShoppingBasket.m */; };
+		1EDB8F5BC9302DD550AB09EC /* ShoppingOrderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB829881B9C1BB867F3893 /* ShoppingOrderer.m */; };
+		1EDB8F6B7DDBA425D7761F8D /* ShoppingOrderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB829881B9C1BB867F3893 /* ShoppingOrderer.m */; };
+		8618F64D18D30B11009F2751 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8618F64C18D30B11009F2751 /* Foundation.framework */; };
+		8618F64F18D30B11009F2751 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8618F64E18D30B11009F2751 /* CoreGraphics.framework */; };
+		8618F65118D30B11009F2751 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8618F65018D30B11009F2751 /* UIKit.framework */; };
+		8618F65718D30B11009F2751 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8618F65518D30B11009F2751 /* InfoPlist.strings */; };
+		8618F65918D30B11009F2751 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8618F65818D30B11009F2751 /* main.m */; };
+		8618F65D18D30B11009F2751 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8618F65C18D30B11009F2751 /* AppDelegate.m */; };
+		8618F65F18D30B11009F2751 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8618F65E18D30B11009F2751 /* Images.xcassets */; };
+		8618F69018D30BBE009F2751 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8618F64C18D30B11009F2751 /* Foundation.framework */; };
+		8618F69118D30BBE009F2751 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8618F64E18D30B11009F2751 /* CoreGraphics.framework */; };
+		8618F69218D30BBE009F2751 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8618F65018D30B11009F2751 /* UIKit.framework */; };
+		8618F69818D30BBE009F2751 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8618F69618D30BBE009F2751 /* InfoPlist.strings */; };
+		8618F69A18D30BBE009F2751 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8618F69918D30BBE009F2751 /* main.m */; };
+		C4A8714C06D14D4EB093F0DC /* libPods-specs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A32393D08C4857BE02E695 /* libPods-specs.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EDB825543432F84945F1C2F /* ShoppingBasketEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingBasketEditor.h; sourceTree = "<group>"; };
+		1EDB829881B9C1BB867F3893 /* ShoppingOrderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingOrderer.m; sourceTree = "<group>"; };
+		1EDB8603BC841D8FE4681FB5 /* ShoppingOrderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingOrderer.h; sourceTree = "<group>"; };
+		1EDB8609C8AEC96C1DAC2F43 /* ShoppingBasket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingBasket.m; sourceTree = "<group>"; };
+		1EDB8613178A7DE5DD9F194B /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		1EDB87261466732BC7A182C1 /* ShoppingBasketEditorSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingBasketEditorSpecs.m; sourceTree = "<group>"; };
+		1EDB8733B857227051E47732 /* ApiGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiGateway.m; sourceTree = "<group>"; };
+		1EDB88460D6DEF197CE7879B /* ShoppingOrdererSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingOrdererSpecs.m; sourceTree = "<group>"; };
+		1EDB88587D4C7C640A1ED341 /* BalanceCalculatorSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BalanceCalculatorSpecs.m; sourceTree = "<group>"; };
+		1EDB893226D8CBD9E332EF04 /* BalanceCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BalanceCalculator.m; sourceTree = "<group>"; };
+		1EDB894F218A177636083A22 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		1EDB8AE0359CB613DE6726DB /* ShoppingBasketEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingBasketEditor.m; sourceTree = "<group>"; };
+		1EDB8C3E198D0C2EB57214A5 /* ApiGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiGateway.h; sourceTree = "<group>"; };
+		1EDB8D3EEE586A3AA6E3C997 /* BalanceCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalanceCalculator.h; sourceTree = "<group>"; };
+		1EDB8F008F4BE5947479C32B /* ShoppingBasket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingBasket.h; sourceTree = "<group>"; };
+		6FCAA842E4C045DDB19283A5 /* Pods-specs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-specs.xcconfig"; path = "Pods/Pods-specs.xcconfig"; sourceTree = "<group>"; };
+		80A32393D08C4857BE02E695 /* libPods-specs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-specs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8618F64918D30B11009F2751 /* MobileShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8618F64C18D30B11009F2751 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8618F64E18D30B11009F2751 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8618F65018D30B11009F2751 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8618F65418D30B11009F2751 /* MobileShop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileShop-Info.plist"; sourceTree = "<group>"; };
+		8618F65618D30B11009F2751 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8618F65818D30B11009F2751 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8618F65A18D30B11009F2751 /* MobileShop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobileShop-Prefix.pch"; sourceTree = "<group>"; };
+		8618F65B18D30B11009F2751 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8618F65C18D30B11009F2751 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8618F65E18D30B11009F2751 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8618F66518D30B11009F2751 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8618F68F18D30BBD009F2751 /* MobileShopSpecs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileShopSpecs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8618F69518D30BBE009F2751 /* MobileShopSpecs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileShopSpecs-Info.plist"; sourceTree = "<group>"; };
+		8618F69718D30BBE009F2751 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8618F69918D30BBE009F2751 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8618F69B18D30BBE009F2751 /* MobileShopSpecs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobileShopSpecs-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8618F64618D30B11009F2751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8618F64F18D30B11009F2751 /* CoreGraphics.framework in Frameworks */,
+				8618F65118D30B11009F2751 /* UIKit.framework in Frameworks */,
+				8618F64D18D30B11009F2751 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8618F68C18D30BBD009F2751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8618F69118D30BBE009F2751 /* CoreGraphics.framework in Frameworks */,
+				8618F69218D30BBE009F2751 /* UIKit.framework in Frameworks */,
+				8618F69018D30BBE009F2751 /* Foundation.framework in Frameworks */,
+				C4A8714C06D14D4EB093F0DC /* libPods-specs.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EDB80C82C39ED8A1A50BE99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1EDB8609C8AEC96C1DAC2F43 /* ShoppingBasket.m */,
+				1EDB8F008F4BE5947479C32B /* ShoppingBasket.h */,
+				1EDB8613178A7DE5DD9F194B /* Product.m */,
+				1EDB894F218A177636083A22 /* Product.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1EDB85870AEF16EB7B8FB876 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1EDB80C82C39ED8A1A50BE99 /* Model */,
+				1EDB8AE0359CB613DE6726DB /* ShoppingBasketEditor.m */,
+				1EDB825543432F84945F1C2F /* ShoppingBasketEditor.h */,
+				1EDB893226D8CBD9E332EF04 /* BalanceCalculator.m */,
+				1EDB8D3EEE586A3AA6E3C997 /* BalanceCalculator.h */,
+				1EDB829881B9C1BB867F3893 /* ShoppingOrderer.m */,
+				1EDB8603BC841D8FE4681FB5 /* ShoppingOrderer.h */,
+				1EDB85C4974DD7573F688303 /* Network */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1EDB85C4974DD7573F688303 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1EDB8733B857227051E47732 /* ApiGateway.m */,
+				1EDB8C3E198D0C2EB57214A5 /* ApiGateway.h */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1EDB8C19BAC4B09AC915BB7A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1EDB87261466732BC7A182C1 /* ShoppingBasketEditorSpecs.m */,
+				1EDB88587D4C7C640A1ED341 /* BalanceCalculatorSpecs.m */,
+				1EDB88460D6DEF197CE7879B /* ShoppingOrdererSpecs.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8618F64018D30B11009F2751 = {
+			isa = PBXGroup;
+			children = (
+				8618F65218D30B11009F2751 /* MobileShop */,
+				8618F69318D30BBE009F2751 /* MobileShopSpecs */,
+				8618F64B18D30B11009F2751 /* Frameworks */,
+				8618F64A18D30B11009F2751 /* Products */,
+				6FCAA842E4C045DDB19283A5 /* Pods-specs.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		8618F64A18D30B11009F2751 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8618F64918D30B11009F2751 /* MobileShop.app */,
+				8618F68F18D30BBD009F2751 /* MobileShopSpecs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8618F64B18D30B11009F2751 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8618F64C18D30B11009F2751 /* Foundation.framework */,
+				8618F64E18D30B11009F2751 /* CoreGraphics.framework */,
+				8618F65018D30B11009F2751 /* UIKit.framework */,
+				8618F66518D30B11009F2751 /* XCTest.framework */,
+				80A32393D08C4857BE02E695 /* libPods-specs.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8618F65218D30B11009F2751 /* MobileShop */ = {
+			isa = PBXGroup;
+			children = (
+				1EDB85870AEF16EB7B8FB876 /* Classes */,
+				8618F65B18D30B11009F2751 /* AppDelegate.h */,
+				8618F65C18D30B11009F2751 /* AppDelegate.m */,
+				8618F65E18D30B11009F2751 /* Images.xcassets */,
+				8618F65318D30B11009F2751 /* Supporting Files */,
+			);
+			path = MobileShop;
+			sourceTree = "<group>";
+		};
+		8618F65318D30B11009F2751 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8618F65418D30B11009F2751 /* MobileShop-Info.plist */,
+				8618F65518D30B11009F2751 /* InfoPlist.strings */,
+				8618F65818D30B11009F2751 /* main.m */,
+				8618F65A18D30B11009F2751 /* MobileShop-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8618F69318D30BBE009F2751 /* MobileShopSpecs */ = {
+			isa = PBXGroup;
+			children = (
+				1EDB8C19BAC4B09AC915BB7A /* Classes */,
+				8618F69418D30BBE009F2751 /* Supporting Files */,
+			);
+			path = MobileShopSpecs;
+			sourceTree = "<group>";
+		};
+		8618F69418D30BBE009F2751 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8618F69518D30BBE009F2751 /* MobileShopSpecs-Info.plist */,
+				8618F69618D30BBE009F2751 /* InfoPlist.strings */,
+				8618F69918D30BBE009F2751 /* main.m */,
+				8618F69B18D30BBE009F2751 /* MobileShopSpecs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8618F64818D30B11009F2751 /* MobileShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8618F67518D30B11009F2751 /* Build configuration list for PBXNativeTarget "MobileShop" */;
+			buildPhases = (
+				8618F64518D30B11009F2751 /* Sources */,
+				8618F64618D30B11009F2751 /* Frameworks */,
+				8618F64718D30B11009F2751 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileShop;
+			productName = MobileShop;
+			productReference = 8618F64918D30B11009F2751 /* MobileShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8618F68E18D30BBD009F2751 /* MobileShopSpecs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8618F6BC18D30BBE009F2751 /* Build configuration list for PBXNativeTarget "MobileShopSpecs" */;
+			buildPhases = (
+				945822EAA1714E3EB5B67C1C /* Check Pods Manifest.lock */,
+				8618F68B18D30BBD009F2751 /* Sources */,
+				8618F68C18D30BBD009F2751 /* Frameworks */,
+				8618F68D18D30BBD009F2751 /* Resources */,
+				322E31E3DDBD4E81A69BFB50 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileShopSpecs;
+			productName = MobileShopSpecs;
+			productReference = 8618F68F18D30BBD009F2751 /* MobileShopSpecs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8618F64118D30B11009F2751 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MobileWarsaw;
+			};
+			buildConfigurationList = 8618F64418D30B11009F2751 /* Build configuration list for PBXProject "MobileShop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8618F64018D30B11009F2751;
+			productRefGroup = 8618F64A18D30B11009F2751 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8618F64818D30B11009F2751 /* MobileShop */,
+				8618F68E18D30BBD009F2751 /* MobileShopSpecs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8618F64718D30B11009F2751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8618F65718D30B11009F2751 /* InfoPlist.strings in Resources */,
+				8618F65F18D30B11009F2751 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8618F68D18D30BBD009F2751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8618F69818D30BBE009F2751 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		322E31E3DDBD4E81A69BFB50 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-specs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		945822EAA1714E3EB5B67C1C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8618F64518D30B11009F2751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8618F65D18D30B11009F2751 /* AppDelegate.m in Sources */,
+				8618F65918D30B11009F2751 /* main.m in Sources */,
+				1EDB829A15A27BB26B6551F8 /* ShoppingBasket.m in Sources */,
+				1EDB8D87D2465490AE7F6BFD /* Product.m in Sources */,
+				1EDB8DCB00C0CB00D5C7592F /* ShoppingBasketEditor.m in Sources */,
+				1EDB8C15836522BF4C377932 /* BalanceCalculator.m in Sources */,
+				1EDB8F5BC9302DD550AB09EC /* ShoppingOrderer.m in Sources */,
+				1EDB84A1550EDDBF56252E71 /* ApiGateway.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8618F68B18D30BBD009F2751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8618F69A18D30BBE009F2751 /* main.m in Sources */,
+				1EDB8E3EB51F4BFF35EA6AD2 /* ShoppingBasket.m in Sources */,
+				1EDB81049D1EBB5745FF54F0 /* Product.m in Sources */,
+				1EDB80BEB02B5C520A864F2A /* ShoppingBasketEditor.m in Sources */,
+				1EDB827A651E016B4BE1B132 /* ShoppingBasketEditorSpecs.m in Sources */,
+				1EDB81ACEF5BC0EC956E0B68 /* BalanceCalculator.m in Sources */,
+				1EDB87F9F663FE93F83D63C2 /* BalanceCalculatorSpecs.m in Sources */,
+				1EDB8F6B7DDBA425D7761F8D /* ShoppingOrderer.m in Sources */,
+				1EDB8DEA1178BCD2FE36CC87 /* ApiGateway.m in Sources */,
+				1EDB86E2503E558D1B724ABF /* ShoppingOrdererSpecs.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8618F65518D30B11009F2751 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8618F65618D30B11009F2751 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8618F69618D30BBE009F2751 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8618F69718D30BBE009F2751 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8618F67318D30B11009F2751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8618F67418D30B11009F2751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8618F67618D30B11009F2751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileShop/MobileShop-Prefix.pch";
+				INFOPLIST_FILE = "MobileShop/MobileShop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8618F67718D30B11009F2751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileShop/MobileShop-Prefix.pch";
+				INFOPLIST_FILE = "MobileShop/MobileShop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8618F6BD18D30BBE009F2751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FCAA842E4C045DDB19283A5 /* Pods-specs.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileShopSpecs/MobileShopSpecs-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MobileShopSpecs/MobileShopSpecs-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+					"-framework",
+					Foundation,
+					"${inhertied}",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8618F6BE18D30BBE009F2751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FCAA842E4C045DDB19283A5 /* Pods-specs.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileShopSpecs/MobileShopSpecs-Prefix.pch";
+				INFOPLIST_FILE = "MobileShopSpecs/MobileShopSpecs-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+					"-framework",
+					Foundation,
+					"${inhertied}",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8618F64418D30B11009F2751 /* Build configuration list for PBXProject "MobileShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8618F67318D30B11009F2751 /* Debug */,
+				8618F67418D30B11009F2751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8618F67518D30B11009F2751 /* Build configuration list for PBXNativeTarget "MobileShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8618F67618D30B11009F2751 /* Debug */,
+				8618F67718D30B11009F2751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8618F6BC18D30BBE009F2751 /* Build configuration list for PBXNativeTarget "MobileShopSpecs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8618F6BD18D30BBE009F2751 /* Debug */,
+				8618F6BE18D30BBE009F2751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8618F64118D30B11009F2751 /* Project object */;
+}

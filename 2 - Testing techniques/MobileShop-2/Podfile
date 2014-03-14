@@ -1,0 +1,11 @@
+platform :ios, '7.0'
+
+xcodeproj 'MobileShop'
+
+target :specs do
+  link_with 'MobileShopSpecs'
+
+  pod 'Cedar'
+  pod 'Expecta'
+  pod 'OCMockito'
+end
