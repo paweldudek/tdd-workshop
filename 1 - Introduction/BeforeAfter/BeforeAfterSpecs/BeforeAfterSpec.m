@@ -1,8 +1,15 @@
-
+#import "FadeTransitionDelegate.h"
 
 SPEC_BEGIN(BeforeAfterSpecSpec)
 
-describe(@"BeforeAfterSpec", ^{
+describe(@"fade transition delegate", ^{
+
+    __block FadeTransitionDelegate *delegate;
+
+    beforeEach(^{
+        delegate = [[FadeTransitionDelegate alloc] init];
+    });
+
     describe(@"", ^{
 
     });

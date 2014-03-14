@@ -21,8 +21,12 @@
 		43E4417E18D22F14000A5ED9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E4417D18D22F14000A5ED9 /* main.m */; };
 		5354D18E6AB746FC91C0FBC4 /* libPods-specs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D372C0DDCEF49768D187C47 /* libPods-specs.a */; };
 		B27A94E113048087C70C7A04 /* FadeTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A9D91CC20B38A4221DA21 /* FadeTransitionDelegate.m */; };
+		B27A9727E5F34756A1167D16 /* FadeInAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A9B7B6D0E9A81CBD27DF2 /* FadeInAnimationController.m */; };
 		B27A983564ADE9AD4C9C045C /* FadeTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A9D91CC20B38A4221DA21 /* FadeTransitionDelegate.m */; };
 		B27A98B95F607BEC332DC284 /* BeforeAfterSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A96FEA88C34AF69D57F91 /* BeforeAfterSpec.m */; };
+		B27A9B3932211EB2FC367B1C /* FadeOutAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A947D24D94E56F26B9D6E /* FadeOutAnimationController.m */; };
+		B27A9CA67FACD22C3FAC51CD /* FadeOutAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A947D24D94E56F26B9D6E /* FadeOutAnimationController.m */; };
+		B27A9D8429A4D9C4BAB34765 /* FadeInAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A9B7B6D0E9A81CBD27DF2 /* FadeInAnimationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +49,11 @@
 		43E4417F18D22F14000A5ED9 /* BeforeAfterSpecs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeforeAfterSpecs-Prefix.pch"; sourceTree = "<group>"; };
 		5D372C0DDCEF49768D187C47 /* libPods-specs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-specs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62F564A265704CED98959F36 /* Pods-specs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-specs.xcconfig"; path = "Pods/Pods-specs.xcconfig"; sourceTree = "<group>"; };
+		B27A947D24D94E56F26B9D6E /* FadeOutAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeOutAnimationController.m; sourceTree = "<group>"; };
+		B27A94A6EBA9E7E38751283B /* FadeInAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeInAnimationController.h; sourceTree = "<group>"; };
 		B27A96FEA88C34AF69D57F91 /* BeforeAfterSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeforeAfterSpec.m; sourceTree = "<group>"; };
+		B27A99D2E6D1CAFECFFF9198 /* FadeOutAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeOutAnimationController.h; sourceTree = "<group>"; };
+		B27A9B7B6D0E9A81CBD27DF2 /* FadeInAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeInAnimationController.m; sourceTree = "<group>"; };
 		B27A9D494312B52AA965E2A7 /* FadeTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeTransitionDelegate.h; sourceTree = "<group>"; };
 		B27A9D91CC20B38A4221DA21 /* FadeTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeTransitionDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,6 +124,7 @@
 				43E4410C18D22D96000A5ED9 /* Supporting Files */,
 				B27A9D91CC20B38A4221DA21 /* FadeTransitionDelegate.m */,
 				B27A9D494312B52AA965E2A7 /* FadeTransitionDelegate.h */,
+				B27A98D58E54F007405067D2 /* Animators */,
 			);
 			path = BeforeAfter;
 			sourceTree = "<group>";
@@ -149,6 +158,17 @@
 				43E4417F18D22F14000A5ED9 /* BeforeAfterSpecs-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B27A98D58E54F007405067D2 /* Animators */ = {
+			isa = PBXGroup;
+			children = (
+				B27A9B7B6D0E9A81CBD27DF2 /* FadeInAnimationController.m */,
+				B27A94A6EBA9E7E38751283B /* FadeInAnimationController.h */,
+				B27A947D24D94E56F26B9D6E /* FadeOutAnimationController.m */,
+				B27A99D2E6D1CAFECFFF9198 /* FadeOutAnimationController.h */,
+			);
+			path = Animators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +298,8 @@
 				43E4411618D22D96000A5ED9 /* AppDelegate.m in Sources */,
 				43E4411218D22D96000A5ED9 /* main.m in Sources */,
 				B27A94E113048087C70C7A04 /* FadeTransitionDelegate.m in Sources */,
+				B27A9727E5F34756A1167D16 /* FadeInAnimationController.m in Sources */,
+				B27A9CA67FACD22C3FAC51CD /* FadeOutAnimationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +310,8 @@
 				43E4417E18D22F14000A5ED9 /* main.m in Sources */,
 				B27A98B95F607BEC332DC284 /* BeforeAfterSpec.m in Sources */,
 				B27A983564ADE9AD4C9C045C /* FadeTransitionDelegate.m in Sources */,
+				B27A9D8429A4D9C4BAB34765 /* FadeInAnimationController.m in Sources */,
+				B27A9B3932211EB2FC367B1C /* FadeOutAnimationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
