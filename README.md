@@ -9,6 +9,8 @@ Mobile Warsaw iOS TDD Workshop
 * 3 - Red Green Refactor
 * 4 - Getting your code more testable
 * 5 - Katas -> Example projects to work on.
+* settings.jar -> AppCode live templates for Cedar/Expecta
+* Specs.h -> generic header file for specs projects
 
 Resources:
 - [Cedar](https://github.com/pivotal/cedar)
